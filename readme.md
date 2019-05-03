@@ -1,3 +1,25 @@
+使用 `npm install` 安装依赖
+使用 `npm test` 运行测试
+使用 `node lib/main.js` 启动程序
+
+测试截图：
+[](results/npm-test-screenshot.png)
+
+运行截图：
+[](results/node-main-1.png)
+[](results/node-main-2.png)
+[](results/node-main-3.png)
+
+结构和关系：
+<object data="results/tasking-picture.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="results/tasking-picture.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="results/tasking-picture.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+-----
+以下是原说明
+
 #  练习 - 学生成绩单-命令行版
 ## 需求描述
 我们现在做一个命令行应用。当程序启动的时候，我们会看到一个命令行的主界面：
