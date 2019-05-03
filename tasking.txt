@@ -1,0 +1,87 @@
+## 学生 Student
+# 构造函数
+输入：
+    student: {
+        id: string,
+        name: string,
+        grades: {
+            math: number,
+            chinese: number,
+            english: number,
+            programming: number
+        }
+    }: cls
+输出：
+    this
+# 计算学生总分
+输入：
+    student: this
+输出：
+    total: number: this.total
+
+# 计算学生平均分
+输入：
+    student: this
+输出：
+    average: number: this.average
+
+# 返回学生成绩描述
+输入：
+    student: {
+        id: string,
+        name: string,
+        math: number,
+        chinese: number,
+        english: number,
+        programming: number,
+        average: number
+        total: number,
+    }: this
+输出：
+    description: string
+
+
+## 班级 Cls
+# 添加学生
+输入：
+    student: {
+        id: string,
+        name: string,
+        math: string,
+        chinese: string,
+        english: string,
+        programming: string
+    }: stdin
+输出：
+    student: Student: this.stus
+
+# 计算班级总分中位数
+输入：
+    totals: [number]
+输出：
+    middle: number: this.middle
+
+# 计算班级总分平均分
+输入：
+    total: [number]
+输出：
+    average: number: this.average
+
+
+## 主界面
+# 打印主界面提示信息
+输入：
+    none
+输出：
+    info: string: stdout
+# 获取选项
+输入：
+    option: string: stdin
+输出：
+    option: string
+
+# 生成成绩单
+输入：
+    class: Class
+输出：
+    report: string
